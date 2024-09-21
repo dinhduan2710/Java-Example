@@ -1,0 +1,23 @@
+1. Java
+- La ngon ngu lap trinh bac cao
+- la ngon ngu lap trinh huong doi tuong dua tren cac lop
+- duoc bien dich thiet ke ma code => bytecode => thuc thi
+
+2. Dac Diem
+- Huong doi tuong: moi thu deu la Object, vi the moi thu deu co the mo rong
+- Doc Lap: java khong bien dich sang 1 may tinh cu the tren nen tang nao, thay vao do la nhung bytecode. nhung byte code duoc phan phoi va thong dich bang Vitual Machine(JVM) tren nen tang ma no dang chay
+- Don gian:
+- Bao mat: cho phep  phat trien nhung the thong khong virut,gia mao, cac  ky thuat xac thuc  dua tren ma hoa cong khai
+- Kien truc trung lap: trinh bien dich cua java  tao ra dinh dang file object co kien truc trung lap => code sau khi bien dich co the chay tren nhieu vi xu ly voi su hien dien cua Java Runtime System
+- Portable: Là kiến trúc trung lập và không phụ thuộc vào việc thực hiện là những đặc điểm chính nhất khi nói về khía cạnh Portable của Java. Trình biên dịch trong Java được viết bằng ANSI C với một ranh giới portable gọn gàng, đó là một subset POSIX (giao diện hệ điều hành linh động). Bạn có thể mang byte code của Java lên bất cứ nền tảng nào.
+- Mạnh mẽ: Java nỗ lực loại trừ những tình huống dễ bị lỗi bằng cách nhấn mạnh chủ yếu là kiểm tra lỗi thời gian biên dịch và kiểm tra runtime.
+-Đa luồng: Với tính năng đa luồng của Java, bạn có thể viết các chương trình có thể thực hiện nhiều tác vụ đồng thời. Tính năng này cho phép các nhà phát triển xây dựng các ứng dụng tương tác có thể chạy trơn tru.
+- Thông dịch: Byte code của Java được dịch trực tiếp tới các nền tảng gốc và nó không được lưu trữ ở bất cứ đâu. 
+- Hiệu suất cao: Với việc sử dụng trình biên dịch Just-In-Time, Java cho phép thực thi với hiệu suất cao, nhanh chóng phát hiện, gỡ lỗi.
+- Phân tán: Java được thiết kế cho môi trường phân tán của Internet.
+- Linh động: Java được coi là năng động hơn C hay C++ vì nó được thiết kế để thích nghi với môi trường đang phát triển. Các chương trình Java có thể mang theo một lượng lớn thông tin run-time, được sử dụng để xác minh và giải quyết các truy cập đến đối tượng trong thời gian chạy.
+3. Ung Dung
+- Standalone App: còn được biết đến với tên gọi khác là Destop App hoặc Windows-based App. Một ứng dụng mà chúng ta cần cài đặt trên mỗi thiết bị như media player, antivirus, … AWT và Swing được sử dụng trong Java để tạo các Standalone App
+- Web App: Một ứng dụng mà chạy trên Server Side và tạo Dynamic Page, được gọi là Web App. Hiện tại, các công nghệ Servlet, JSP, Struts, JSF, … được sử dụng để tạo Web App trong Java.
+- Enterprise App: ứng dụng dạng như Banking App, có lợi thế là tính bảo mật cao, cân bằng tải (load balancing) và clustering. Trong java, EJB được sử dụng để tạo các Enterprise App.
+- Mobile App: 
